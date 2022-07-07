@@ -7,6 +7,19 @@
       <link rel="stylesheet" type="text/css" href="stylesheets/mainStyleSheet.css" />
     </head>
     <body>
+      <script type="text/javascript">
+        (function(w, d, x, id){
+          s=d.createElement('script');
+          s.src='https://d2zasqxhmd6ne4.cloudfront.net/amazon-connect-chat-interface-client.js';
+          s.async=1;
+          s.id=id;
+          d.getElementsByTagName('head')[0].appendChild(s);
+          w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+        })(window, document, 'amazon_connect', '7e8d2466-2304-483d-9fc1-a551bcebfca7');
+        amazon_connect('styles', { openChat: { color: 'white', backgroundColor: '#123456'}, closeChat: { color: 'white', backgroundColor: '#123456'} });
+        amazon_connect('snippetId', 'QVFJREFIaTl2VUdnV3lybUVtc0FxTFVtYk4vUHoxRGdsUDM2Vm4zaFp0YXlzdS8wUEFIV0R0ZGJ6WjBlR0NFZ290WTB4UWQ1QUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNc1RGV0xoRUdia0UyVnR3NkFnRVFnQ3Y2QlduVXV4b3dNaEhlblMvYWlOb0picTQxUVViUWhFckRsdy9TVS9jQXhCY210V0RkbHVSMVZ4eU86OmVPem94NlByYUFjZTJ1U3BvcDJYenJDdjVkUXFneW5VZHhSSVJTV053dkRWNS9laW12dHBHaERLWDl0NnZIeXdUM2E5WjUvZVNCWUtXUDZ6T3hjRHFtQ2QvSWpwUkZLQ0pMQ3o3SDZTRXlBN2RFSExWVVBLRUV3ZmIxdmJibVcvODVQMnpiYndrd1JGeEdFclAxd1JZRldBWm5pYXV1Zz0=');
+        amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown' ]);
+      </script>
       <div class="header">
         <h1>Jacobs Simple Cookbook</h1>
       </div>
